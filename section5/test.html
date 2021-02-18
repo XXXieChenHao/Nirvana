@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+    // a = 1;
+    // function test(e) {
+    //     function e() { }
+    //     arguments[0] = 2;
+    //     console.log(e);
+    //     if (a) {
+    //         var b = 3;
+    //     }
+    //     var c;
+    //     a = 4;
+    //     var a;
+    //     console.log(b);
+    //     f = 5;
+    //     console.log(c);
+    //     console.log(a)
+    // }
+    // var a;
+    // test(1)
+
+    /**
+     * GO = {
+     *  a: undefined ——> 1
+     *  test: function() {}
+     *  test(1)
+     *  f: 5
+     * }
+     *
+     * AO = {
+     *  c: undefined
+     *  a: undefined ——> 4
+     *  b: undefined
+     *  e: 1 ——> function() {} ——> 2
+     * }
+     *
+     * console.log(e)  2
+     * console.log(b)  undefined
+     * console.log(c)  undefined
+     * console.log(a)  4
+    */
+
+    if (typeof (a) && (-true) + (+undefined) + '') {
+        console.log('通过了')
+    } else {
+        console.log('未通过')
+    }
+
+</script>
+
+</html>
