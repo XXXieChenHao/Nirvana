@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // var people = {
+    //   name: '汐潮',
+    //   age: 24,
+    //   weight: 200,
+    //   hobby: ['eat', 'drink'],
+    //   eat: function () {
+    //     people.weight++;
+    //   },
+    //   coding: function () {
+    //     people.weight--;
+    //   }
+    // }
+    // people.eat();
+    // people.eat();
+    // console.log(people.weight);
+    // people.coding();
+    // console.log(people.weight);
+
+
+    function People(name, age, weight) {
+      this.name = name;
+      this.age = age;
+      this.weight = weight;
+      this.eat = function() {
+        console.log('我就是爱吃')
+      };
+      this.coding = function() {
+        console.log('I am coding JavaScript');
+      }
+    }
+    var xichao = new People('汐潮', 24, 200);
+    var huahua = new People('花花', 24, 90);
+
+    console.log(xichao);
+    console.log(huahua);
+
+  </script>
+</body>
+
+</html>
