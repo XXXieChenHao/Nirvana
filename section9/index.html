@@ -10,17 +10,132 @@
 
 <body>
   <script>
-  function myCar(color, brand) {
-    var me = {};
-    me.color = color;
-    me.brand = brand;
-    return me;
-  }
-    
-  var car1 = myCar('Black', 'Benz');
-  var car2 = myCar('red', 'Audi');
-  console.log(car1)
-  console.log(car2)
+    // function myCar(color, brand) {
+    //   var me = {};
+    //   me.color = color;
+    //   me.brand = brand;
+    //   return me;
+    // }
+
+    // var car1 = myCar('Black', 'Benz');
+    // var car2 = myCar('red', 'Audi');
+    // console.log(car1)
+    // console.log(car2)
+
+    // var a = 'abc';
+    // console.log(a)
+    // var b = new String('abc')
+    // console.log(b)
+
+    // var a = 123;
+    // a.len = 3;
+    // console.log(a.len)
+
+    // var a = new Number(1);
+    // a.len = 3
+    // console.log(a + 1)
+
+    // var name = '汐潮'
+    // var type = new String(typeof(name))
+    // if(type.length === 6) {
+    //   type.text = 'string'
+    // } 
+    // console.log(type.text)
+
+    // function Car(brand, color) {
+    //   this.brand = 'benz';
+    //   this.color = 'red'
+    // }
+
+    // var car = new Car('Mazda', 'blue')
+
+    // console.log(car);
+
+    // function Test(a, b, c) {
+    //   var d = 1;
+    //   this.a = a;
+    //   this.b = b;
+    //   this.c = c;
+    //   function f() {
+    //     d++;
+    //     console.log(d);
+    //   }
+
+    //   this.g = f;
+    // }
+
+    // var test1 = new Test();
+    // test1.g();  // 2
+    // test1.g();  // 3
+    // var test2 = new Test();
+    // test2.g();  // 2
+
+    // var x = 1,
+    //   y = z = 0;
+
+    // // function add(n) {
+    // //   return n = n + 1
+    // // }
+
+    // y = add(x);
+    // function add(n) {
+    //   return n = n + 3
+    // }
+    // z = add(x)
+
+    // console.log(x, y, z)
+
+    // function foo1(x) {
+    //   console.log(arguments);
+    //   return x;
+    // }
+    // foo1(1, 2, 3, 4, 5);
+
+    // // 函数表达式才能调用，并不会执行
+    // function foo2(x) {
+    //   console.log(arguments);
+    //   return x;
+    // } (1, 2, 3, 4, 5);
+
+    // ; (function foo3(x) {
+    //   console.log(arguments);
+    //   return x;
+    // })(1, 2, 3, 4, 5);
+
+
+    // arguments 映射  形参赋值，实参也改变
+    // function b(x, y, z) {
+    //   y = 10;
+    //   console.log(arguments[1])   // 10
+
+    //   arguments[2] = 10
+    //   console.log(z)    // 10
+    // }
+    // b(1, 2, 3)
+
+    // ASCII码 表1 0-127  表2 128-255  
+    // ASCII 都是 1 byte 
+    // UNICODE 涵盖 ASCII 从256位开始是 2 byte  
+    // var str = '';
+    // var pos = str.charCodeAt();
+    // console.log(pos)
+
+    // 获取字符字节大小
+    // function getStringByte(str) {
+    //   var sum = 0
+    //   for (let i = 0; i < str.length; i++) {
+    //     if(str.charCodeAt(i) >= 255) {
+    //       sum+= 2;
+    //     } else {
+    //       sum += 1;
+    //     }
+    //   }
+    //   return sum
+    // }
+
+    // var pos = getStringByte('')
+    // console.log(pos)
+
   </script>
 </body>
 
